@@ -6,11 +6,17 @@
 N, M = map(int, input().split())
 ```
 
-配列処理
+key, value で for を回す
 
 ```python
 for index, item in enumerate(l):
     print(index, item)
+```
+
+for のワンライナー
+
+```python
+l = [n * 2 for n in numbers]
 ```
 
 ソート
