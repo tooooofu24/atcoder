@@ -27,16 +27,3 @@ l.sort()
 # イミュータブル
 sorted_l = sorted(l)
 ```
-
-range の使い方
-
-```python
-range(5)
-> [0, 1, 2, 3, 4]
-
-range(1, 5)
-> [1, 2, 3, 4]
-
-range(1, 5, 2)
-> [1, 3]
-```
