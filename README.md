@@ -35,6 +35,7 @@ $ atcoder-tools gen {コンテストID}
 
 ```bash
 $ atcoder-tools test
+$ atcoder-tools test --num 1
 ```
 
 提出

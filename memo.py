@@ -1,3 +1,5 @@
+import math
+
 l = []
 
 # 入力
@@ -30,8 +32,6 @@ range(1, 5, 2)
 
 
 # 最大公約数
-import math
-
 math.gcd(12, 18)
 # > 6
 
@@ -46,3 +46,14 @@ divisors = [i for i in range(1, N + 1) if N % i == 0]
 A = [1, 2, 3, 4]
 B = [3, 4, 5, 6]
 commons = list(set(A) & set(B))
+
+
+# 階乗
+math.factorial(5)
+# > 120
+
+
+# 組み合わせ
+# nCk = n! / (k! * (n - k)!)
+math.comb(4, 2)
+# > 6
