@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["atcoder", "atcodertools", "codestyle"]
+  "cSpell.words": ["atcoder", "atcodertools", "codestyle"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
 }
